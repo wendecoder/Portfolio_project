@@ -4,7 +4,8 @@ Artist and Venue matching
 ## Introduction
 
 Artist and Venue matching is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
-
+[link to deployed app](http://www.wencoder.tech)
+[linkedin profile](www.linkedin.com/in/wendwossen-dufera)
 ## Tech Stack (Dependencies)
 
 ### 1. Backend Dependencies
