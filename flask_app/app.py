@@ -357,8 +357,8 @@ def show_artist(artist_id):
       pa.update(pas)
     if passs:
       paa.update(passs)
-  posss = {"past_shows_count": len(pas),
-             "upcoming_shows_count": len(passs)
+  posss = {"past_shows_count": len(pa),
+             "upcoming_shows_count": len(paa)
         } 
   data.update(pa)
   data.update(paa)
