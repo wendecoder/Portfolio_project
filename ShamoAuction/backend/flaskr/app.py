@@ -51,10 +51,9 @@ def create_app(test_config=None):
                 "userId": user_account[0].id
             }
         return jsonify(response)
-    @app.route('/user/<user_id>/items', methods=['GET'])
+    @app.route('/users/<user_id>/items', methods=['GET'])
     def userItems(user_id):
         user_items = Item.query.filter(Item.user_id == user_id).all()
-        items_dict = [item.to_dict() for item in user_items]
-
+        items_dict = [items.format() for items in user_items]
         return jsonify(items_dict)
     return app
